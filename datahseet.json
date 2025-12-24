@@ -18,7 +18,7 @@
             ]
         },
         {
-            "tag": "goodbye",
+            "tag": "Goodbye",
             "patterns":[
                 "waasalamualaikum",
                 "Bye",
@@ -1827,7 +1827,7 @@
           
         },
                 {
-            "tag": "pengertian ilmu waris",
+            "tag": "Pengertian Ilmu Waris",
             "patterns": [
               "apa itu warisan?",
               "apa itu Faraidh?",
@@ -1841,7 +1841,7 @@
             ]
         },
         {
-            "tag": "pentingnya ilmu waris",
+            "tag": "Pentingnya Ilmu Waris",
             "patterns": [
               "seberapa penting ilmu waris di agama islam?",
               "sebutkan tga ayat dalam Al quran yang merinci tentang pembagian watisan",
@@ -1856,7 +1856,7 @@
             ]
         },
         {
-            "tag": "rukun waris",
+            "tag": "Rukun Waris",
             "patterns": [
               "apa saja rukun waris?",
               "kapan waktu yang tepat untuk membahas ruku warisan dibandingkan dengan pembahasan lainnya?",
@@ -1871,7 +1871,7 @@
             ]
         },
         {
-            "tag": "syarat-syarat waris",
+            "tag": "Syarat-Syarat Waris",
             "patterns": [
               "apakah terpenuhnya semua rukun waris menjamin warisan bisa langsung dilaksanakan",
               "apa yang harus dipenuhi agar hukum waris dapat dilaksanakan meskipun rukun rukunnya sudah lengkap?",
@@ -1883,7 +1883,7 @@
             ]
         },
         {
-            "tag": "penyebab mendapatkan warisan",
+            "tag": "Penyebab Mendapatkan Warisan",
             "patterns": [
               "mengapa seseorang bisa mendapatkan warisan?",
               "hubungan seperti apa jika seseorang mendapatkan warisan dari seorang muwarrits?",
