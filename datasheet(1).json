@@ -1,0 +1,413 @@
+{
+    "intents":[
+        {
+            "tag": "Pembuka",
+            "patterns": [
+                "assalamualaikum",
+                "Assalamualaikum",
+                "hallo",
+                "good morning",
+                "hai",
+                "bro",
+                "sis",
+                "ustazt"
+            ],
+            "responses": [
+                "waalaikumsalam",
+                "Waalaikumsalam di sini islamic bot, ada yang bisa saya bantu"
+            ]
+        },
+        {
+            "tag": "Goodbye",
+            "patterns":[
+                "waasalamualaikum",
+                "Bye",
+                "dadah",
+                "waasalamualaikum warohmatullahi wabarokatuh",
+                "goodbye"
+            ],
+            "responses":[
+                "waasalamualaikum warohmatullahi wabarokatuh"
+            ]
+        },
+        {
+            "tag": "Pengertian Ilmu Waris",
+            "patterns": [
+              "apa itu warisan?",
+              "apa itu Faraidh?",
+              "Menurut istilah syar'i, apa definisi lengkap dari Ilmu Fara'idh?",
+              "Sebutkan tiga bahasan utama yang tercakup dalam ruang lingkup Ilmu Fara'idh menurut istilah syar'i!",
+              "Ilmu Fara'idh membahas tentang siapa saja yang berhak mendapatkan warisan?",
+              "Apa arti dari kata fariidhah?"
+            ],
+            "responses": [
+               "Dalam istilah ilmu syari’at ilmu waris ini biasa disebut dengan nama “Ilmu Fara`idh”. Ilmu berarti pengetahuan. Sedangkan Al Fara`idh adalah bentuk jamak dari fariidhah yang berarti bagian tertentu. Menurut istilah syar’i ilmu fara`idh adalah suatu cabang ilmu syariat yang membahas tentang cara pembagian harta warisan, yang meliputi siapa saja yang berhak mendapatkan warisan, yang tidak berhak, serta berapa jumlah yang didapatkan. Selain itu ilmu ini juga sering dinamakan ilmu mawarits, atau fiqh al mawarits. Dalam bahasa Indonesia ia kemudian lebih dikenal dengan istilah ilmu waris atau ilmu pembagian pusaka."
+            ]
+        },
+        {
+            "tag": "Pentingnya Ilmu Waris",
+            "patterns": [
+              "seberapa penting ilmu waris di agama islam?",
+              "sebutkan tga ayat dalam Al quran yang merinci tentang pembagian watisan",
+              "siapakah yang membicarakan perincian dasar warisan secara langsung dalam al quran",
+              "bagaimana kedudukan ilmu waris dalam pandangan islam",
+              "apa bukti masalah pembagian warisan dianggap sangat penting dalam islam?",
+              "ada berapa total ayat yang merinci pembagian warisan?",
+              "dalam surah apa warisan ini di jelaskan?"
+            ],
+            "responses": [
+               "Ilmu ini mempunyai kedudukan tersendiri dalam Islam. Saking pentingnya Allah SWT sendiri yang membicarakan perincian dasar warisan dalam Al Quran. Ada tiga ayat dalam Al Quran yang merinci pembagian warisan, yaitu, ayat 11, 12 dan 176 surah An Nisaa`.\n\nAllah berfirman:\n\n “Allah mensyariatkan (mewajibkan) kepadamu tentang (pembagian warisan untuk) anakanakmu, (yaitu) bagian seorang anak laki-laki sama dengan bagian dua orang anak perempuan. Dan jika anak itu semuanya perempuan yang jumlahnya lebih dari dua, maka bagian mereka dua pertiga dari harta yang ditinggalkan. Jika dia (anak perempuan) itu seorang saja, maka dia memperoleh setengah (harta yang ditinggalkan). Dan untuk kedua ibu-bapak, bagian masing-masing seperenam dari harta yang ditinggalkan, jika dia (yang meninggal) mempunyai anak. Jika dia (yang meninggal) tidak mempunyai anak dan dia diwarisi oleh kedua ibu-bapaknya (saja), maka ibunya mendapat sepertiga. Jika dia (yang meninggal) mempunyai beberapa saudara, maka ibunya mendapat seperenam. (Pembagian-pembagian tersebut di atas) setelah (dipenuhi) wasiat yang dibuatnya atau (dan setelah dibayar) hutangnya. (Tentang) orang tuamu dan anak-anakmu, kamu tidak mengetahui siapa di antara mereka yang lebih banyak manfaatnya bagimu. Ini adalahketetapan Allah. Sungguh, Allah Maha Mengetahui, Mahabijaksana.” QS. An Nisa:11 \n\n Allah berfirman dalam ayat selanjutnya: \n\n “Dan bagianmu (suami-suami) adalah seperdua dari harta yang ditinggalkan oleh istriistrimu, jika mereka tidak mempunyai anak. Jika mereka (istri-istrimu) itu mempunyai anak, maka kamu mendapat seperempat dari harta yang ditinggalkannya setelah (dipenuhi) wasiat yang mereka buat atau (dan setelah dibayar) hutangnya. Para istri memperoleh seperempat harta yang kamu tinggalkan jika kamu tidak mempunyai anak. Jika kamu mempunyai anak, maka para istri memperoleh seperdelapan dari harta yang kamu tinggalkan (setelah dipenuhi) wasiat yang kamu buat atau (dan setelah dibayar) hutang-hutangmu. Jika seseorang meninggal, baik laki-laki maupun perempuan yang tidak meninggalkan ayah dan tidak meninggalkan anak, tetapi mempunyai seorang saudara laki-laki (seibu) atau seorang saudara perempuan (seibu), maka bagi masingmasing dari kedua jenis saudara itu seperenam harta. Tetapi jika saudara-saudara seibu itu lebih dari seorang, maka mereka bersama-sama dalam bagian yang sepertiga itu, setelah (dipenuhi wasiat) yang dibuatnya atau (dan setelah dibayar) hutangnya dengan tidak menyusahkan (kepada ahli waris). Demikianlah ketentuan Allah. Allah Maha Mengetahui, Maha Penyantun.” QS. An Nisa:12 \n\n Allah juga berfirman pada surat An Nisa ayat 176:\n\n Mereka meminta fatwa kepadamu (tentang kalalah). Katakanlah, “Allah memberi fatwa kepadamu tentang kalalah (yaitu), jika seseorang mati dan dia tidak mempunyai anak tetapi mempunyai saudara perempuan, maka bagiannya (saudara perempuannya itu) seperdua dari harta yang ditinggalkannya, dan saudaranya yang laki-laki mewarisi (seluruh harta saudara perempuan), jika dia tidak mempunyai anak. Tetapi jika saudara perempuan itu dua orang, maka bagi keduanya dua pertiga dari harta yang ditinggalkan. Dan jika mereka (ahli waris itu terdiri dari) saudara-saudara laki-laki dan perempuan, maka bagian seorang saudara laki-laki sama dengan bagian dua saudara perempuan. Allah menerangkan (hukum ini) kepadamu, agar kamu tidak sesat. Allah Maha Mengetahui segala sesuatu. QS. An Nisa:176"
+            ]
+        },
+        {
+            "tag": "Rukun Waris",
+            "patterns": [
+              "apa saja rukun waris?",
+              "kapan waktu yang tepat untuk membahas ruku warisan dibandingkan dengan pembahasan lainnya?",
+              "apa saja 3 hal yang baru boleh dibicarakan setelah semya rukun warisan terpenuhi?",
+              "mengapa pembahasan rukun dianggap sebagai hal yang paling prioritas?",
+              "sebutkan secara lengkap tiga rukun dalam pembagian warisan?",
+              "apa istilah yang digunakan untuk menyebut pihak yang meninggal dunia dan meinggalkan harta?",
+              "siapakah yang dimaksud dengan muwarrits?"
+            ],
+            "responses": [
+               "Yang dimaksud rukun di sini adalah komponen yang harus ada dalam acara pembagian warisan. Ini adalah hal pertama yang harus dibahas terlebih dahulu sebelum menentukan yang lain. Bila rukun-rukun ini sudah ada semua barulah kita membicarakan syarat, sebab dan penghalang mendapatkan warisan. \n\nRukun-rukun tersebut adalah:\n1. Muwarrits (Yang mewariskan); yaitu si mati yang meninggalkan warisan \n2. Warits (Pewaris); yaitu ahli warits yang akan menerima warisan \n3. Al Mawruuts atau Tarikah (warisan); yaitu harta yang ditinggalkan \nBila ketiga komponen ini sudah ada barulah dibicarakan hal-hal berikutnya."
+            ]
+        },
+        {
+            "tag": "Syarat-Syarat Waris",
+            "patterns": [
+              "apakah terpenuhnya semua rukun waris menjamin warisan bisa langsung dilaksanakan",
+              "apa yang harus dipenuhi agar hukum waris dapat dilaksanakan meskipun rukun rukunnya sudah lengkap?",
+              "bagaimana syarat kondisi ahli waris pada saa muwarrtis meninggal dunia?",
+              "apa saja syarat yang harus dipenuhi juka rukun rukun sudah di jalankan"
+            ],
+            "responses": [
+               "Meski rukun-rukun waris sudah terpenuhi, namun ia belum bisa dilaksanakan bila ada syarat yang kurang. Syarat-syarat tersebut adalah: \n1. Pewaris dipastikan masih hidup ketika muwarrits meninggal dunia. Artinya, bila tidak diketahui mana yang lebih dulu meninggal, maka warisan tak dapat diberikan kepada si pewaris yang bersangkutan. \n2. Kematian si muwarrits. Bila muwarrits belum dipastikan mati, atau belum dihukum mati oleh hakim berwenang, berati harta peninggalannya belum bisa dibagikan. Misalnya orang yang hilang bertahun-tahun, dan ini akan dibahas pada bab orang yang hilang insya Allah. \n3. Kejelasan sisi hubungan antara muwarrits dengan warits, dari segi kedekatan,kekuatan dan arah."
+            ]
+        },
+        {
+            "tag": "Penyebab Mendapatkan Warisan",
+            "patterns": [
+              "mengapa seseorang bisa mendapatkan warisan?",
+              "hubungan seperti apa jika seseorang mendapatkan warisan dari seorang muwarrits?",
+              "apa saja bentuk hubungan yang telah di tetapkan syari'at islam?",
+              "apa saja penyebab mendapatkan warisan?"
+            ],
+            "responses": [
+               "yang dimaksud sebab di sini adalah alasan mengapa seorang dinyatakan pantas mendapatkan hak warisan dari muwarrits. Hal ini hanya bisa ditentukan oleh ketetapan syara’ dan tidak bisa dengan ijtihad yang baru. Seseorang berhak mendapatkan warisan bila ia mempunyai hubungan tertentu dengan muwarrits. Bentuk-bentuk hubungan yang telah ditetapkan syari’at untuk mendapatkan warisan adalah: \n1. Keturunan (nasab). Artinya, seorang berhak mendapatkan warisan karena ia mempunyai hubungan nasab dengan muwarrits.\n2. Pernikahan. Suami atau istri mendapatkan warisan karena hubungan pernikahan dengan muwarrits. \n3. Wala`, yaitu bila yang bersangkutan membebaskan si muwarrits dari perbudakan atau dibebaskan oleh muwarrits. \n 4. Kepentingan Islam. Seorang muslim yang meninggal dan tak meninggalkan seorang ahli wsrispun maka hartanya diambil oleh  pemerintah Islam dan dimasukkan ke baitul mal, dan digunakan demi kepentingan Islam dan muslimin."
+            ]
+        },
+        {
+            "tag": "mani'(pelarang) mendapat warisan",
+            "patterns": [
+              "apa istilah yang digunakan untuk menyebut orang yang terhalang mendapatkan warisan meskipun telah memenuhi syarat?",
+              "apakah seseorang yang sudah memenuhi wyarat dan sebab waris sudah pasti berhak menerima harta warisan?",
+              "sembutkan 3 faktor utama yang menyebabkan seseoran dilarang mendaparkan warisan meski sudah memenuhi sebab dan syarat",
+              "sembutkan 3 faktor utama yang menyebabkan seseoran dilarang mendaparkan warisan meski sudah memenuhi syarat dan sebab"
+            ],
+            "responses": [
+               "Seseorang yang telah memenuhi syarat dan memiliki penyebab mendapat warisan dari muwarrits belum tentu berhak menerima warisan tersebut. Ada beberapa faktor yang menyebabkannya terlarang mendapatkan warisan. Bila salah satu faktor ini ada padanya, maka ia tidak berhak mendapatkan warisan. Orang seperti ini disebut mahrum atau mamnu’ (dilarang). \nFaktor-faktor itu adalah: \n1. Berbeda agama. Seorang muslim tidak mewarisi keluarganya yang non muslim, begitu pula sebaliknya. Termasuk didalamnya bila si pewaris atau muwarrits murtad dari Islam atau dihukum murtad oleh pihak berwenang1.\n2. Pembunuhan. Bila seorang anak membunuh ayahnya, baik langsung maupun tidak, maka ia tidak bisa mendapatkan warisan dari ayahnya itu. \n3. Perbudakan. Seorang budak tidak menerima warisan dari keluarganya dan sebaliknya. "
+            ]
+        },
+        {
+            "tag": "ahli waris pria",
+            "patterns": [
+              "berapa total jumlah golongan ahli warisa dari kalangan pria?",
+              "apa saja ahli warisan dari golongan pria?",
+              "bagaimana pembagian warisan digolongan pria?"
+            ],
+            "responses": [
+               "Ahli waris pria ada 15 orang, yaitu: \n1. Anak laki-laki\n2. Anak dari anak laki-laki (cucu laki-laki) dan seterusnya ke bawah\n3. Ayah\n4. Kakek dari ayah (ayahnya ayah) dan seterusnya ke atas\n5. Saudara kandung\n6. Saudara seayah\n7. Saudara seibu\n8. Anak laki-laki dari saudara kandung\n9. Anak laki-laki dari saudara seayah\n10. Saudara kandung ayah (selanjutnya disebut paman kandung)\n11. Saudara ayah sebapak (selanjutnya disebut paman sebapak)\n12. Anak paman kandung\n13. Anak paman sebapak\n14. Suami\n15. Mu’tiq (Orang yang memerdekakan)\n Apabila kelima belas orang ini ada semuanya, maka yang berhak mendapatkan warisan hanya tiga diantara mereka, yakni: anak laki-laki, ayah dan suami. Sedangkan yang lainnya mahjub. Pembagiannya adalah sebagai berikut: Ayah 1/6, suami 1/4, dan anak mendapat seluruh sisanya. Artinya bila seorang wanita meninggalkan harta sejumlah 12 juta maka pembagiannya adalah:\nAyah 1/6 x 12.000 000 = 2.000.000\nSuami 1/4 x 12.000.000 = 3.000.000\nAnak mendapat 7.000.000"
+            ]
+        },
+        {
+            "tag": "ahli waris wanita",
+            "patterns": [
+              "berapa total jumlah golongan ahli warisa dari kalangan wanita?",
+              "apa saja ahli warisan dari golongan wanita?",
+              "bagaimana pembagian warisan digolongan wanita?"
+            ],
+            "responses": [
+               "Jumlah wanita pewaris yang sudah disepakati ada 10 orang:\n1. Anak perempuan.\n2. Cucu perempuan dari anak laki-laki atau anak perempuannya anak laki-laki dari anak laki-laki (cicit) dan seterusnya ke bawah. \n3. Ibu.\n4. Ibunya ibu.\n5. Ibunya ayah.\n6. Saudari kandung.\n7. Saudari seayah.\n8. Saudari seibu.\n9. Istri.\n10. Mu’tiqah\nApabila kesemua ahli waris wanita ini ada tanpa ada ahli waris pria satupun, maka yang mendapatkan warisan hanya 5 orang, yakni: ibu, anak perempuan, anak perempuan dari anak laki-laki, istri dan saudari kandung. Harta yang ditinggalkan: 12 juta. pembagiannya adalah sebagai berikut:\nIbu : 1/6 x 12.000.000 = 2.000.000\nAnak Perempuan : 1/22= 6.000.000.\nAnak perempuan dari anak laki-laki : 1/6 x 12.000.000 = 2.000.000\nIstri : 1/8 = 1.500.000\nSaudari kandung : sisa harta = 500.000.\nJika semua ahli waris wanita dan pria ada, maka yang mendapatkan warisan hanya 5 orang, dan itu ada dua kemungkinan:\nKemungkinan pertama: yang meninggal itu wanita, maka yang mendapatkan warisan adalah: anak laki-laki dan perempuan, ayah, ibu dan suami.Pembagiannya:\nSuami : 1/4\nAyah : 1/6\nIbu : 1/6\nAnak laki-laki dan perempuan mengambil sisa dengan ketentuan bagian anak perempuan hanya setengah bagian anak laki-laki. Contoh perhitungan: Seorang pria meninggal dunia dan meninggalkan harta sejumlah 15.000.000 dengan kelima ahli waris diatas.\nSuami : 1/4 x 15.000.000 = 3.750.000\nIbu : 1/6 x 15.000.000 = 2.500.000\nAyah : 1/6 x 15.000.000 = 2.500.000\nAnak laki-laki dan anak perempuan mendapat sisa harta dengan ketentuan bagian anak laki-laki dua kali lipat bagian anak perempuan yaitu 6.250.000, bagian anak perempuan 2.083.333,3 adalah dan anak laki-laki 4.166.666,6\n\nKemungkinan kedua: bila yang meninggal itu pria maka suami diganti istri, dan istri mendapat 1/8.\nContoh perhitungan\nIstri : 1/8 x 15.000.000 = 1.875.000\nIbu : 1/6 x 15.000.000 = 2.500.000\nAyah : 1/6 x 15.000.000 = 2.500.000\nAnak laki-laki dan anak perempuan mendapat sisa harta dengan ketentuan bagian anak laki-laki dua kali lipat bagian anak perempuan yaitu 8.125.000, bagian anak perempuan adalah 2.708.333 dan anak laki-laki 5.416.666"
+            ]
+        },
+        {
+            "tag": "ashhaab al furudh",
+            "patterns": [
+              "siapa saja yang bisa di katakan ashhaab al furudh?",
+              "bagaimana urutan prioritas pembagian harta warisan jika terdapat ashabul furudh dan ashabah secara bersamaan?",
+              "siapa yang di dahulukan dalam menerima warisan ketika kedua jenis ahli waris tersebut ada?",
+              "bagaimana ketentuan pembagian warisan agar sesuai dengan hak masing masing golongan?"
+            ],
+            "responses": [
+               "Di antara ahli waris ada yang memiliki bagian tertentu dari harta warisan yang ditinggalkan dan disebut ashabul furudh, dan ada pula yang bisa memiliki seluruh harta yang disebut ‘ashabah2. Jika keduanya ada, maka warisan itu diberikan dulu kepada ashabul furudh sesuai bagiannya, baru kemudian seluruh sisanya jatuh ke tangan ‘ashabah.\nAshabul furudh adalah:\n1. Ibu.\n2. Nenek.\n3. Ayah.\n4. Ayahnya ayah (kekek).\n5. Anak perempuan.\n6. Cucu perempuan dari anak laki-laki dan seterusnya ke bawah.\n7. Suami.\n8. Istri.\n9. Saudari kandung.\n10. Saudari seayah.\n11. Saudara seibu, baik laki-laki maupun perempuan.\n\n"
+            ]
+        },
+        {
+            "tag": "bagian ibu",
+            "patterns": [
+              "apa saja syarat mutlak yang harus dipenuhi agar seorang ibu berhak mendapatkan bagian warisan?",
+              "sebutkan kondisi utama yang menyebabkan hak waris seorang ibu?",
+              "kriteria apa saja yang wajib ada pada seorang ibu?",
+              "bagaimana status keberadaan anak atau cucu muwarrits agar ibunya bisa memproleh bagian?"
+            ],
+            "responses": [
+               "Bagian Ibu:\na. 1/3; dengan syarat:\n- Muwarrits tidak meninggalkan keturunan, baik anak maupun cucu yang juga ikut mewarisi.\n- Jumlah saudara yang ikut menjadi ahli waris tak lebih dari satu orang atau tak ada sama sekali.\nJika keduanya terpenuhi barulah si ibu mendapatkan 1/3.\nb. 1/6; dengan dua kemungkinan:\n- Muwarrits meninggalkan keturunan, atau\n- Muwarrits meninggalkan lebih dari satu orang saudara, baik pria maupun wanita, sekandung maupun hanya sebapak atau seibu.\nJika salah satu keadaan ini ada, maka ibu mendapatkan 1/6"
+            ]
+        },
+        {
+            "tag": "bagian nenek",
+            "patterns": [
+              "berapa bagian pasti yang diterima oleh nenek, dan bagaimana cara membaginya jika terdapat nenek dari pihak ayah dan ibu sekaligus?",
+              "jelaskan mekanisme pembagian harta warisan apabila pewaris meninggalkan lebih dari satu nenek?",
+              "apakah jumlah nenek mempengaruhi total besaran harta yang keluar, ataukah harta tersebut dibagi rata diantara mereka?",
+              "Siapa pihak utama yang dapat menyebabkan nenek terhalang sehingga tidak mendapatkan harta warisan sama sekali?",
+              "Dalam kondisi apa seorang nenek dinyatakan gugur hak warisnya menurut pernyataan di atas?"
+            ],
+            "responses": [
+               "Untuk bagian Nenek:\nBagian nenek adalah seperenam baik ia seorang ataupun banyak, misalnya bila muwariits meninggalkan nenek dari pihak ibu dan nenek dari pihak ayah, maka keduanya mendapatkan seperenam untuk mereka bagi berdua. Syaratnya adalah tidak adanya ibu atau nenek yang lebih dekat darinya ke muwarrits1.\nBila muwarrits meninggalkan ibu maka nenek baik dari pihak ibu maupun ayah terhalang(mahjub)."
+            ]
+        },
+        {
+            "tag": "bagian ayah",
+            "patterns": [
+              "bagaimana rincian pembagian harta waisan untuk seorang ayah berdasarkan keberadaan dan jenis kelamin keturunan si muwariits",
+              "kondisi apa saja yang menentukan besaran hak waris ayah?",
+              "kapan seorang ayah mendapatkan hak sebagai ashabah?",
+              "jelaskan syarat syarat spesifik yang membuat bagian ayah berubah dari sekedar 1/6 menjadi 1/6 ditambah sisa?"
+            ],
+            "responses": [
+               "Untuk Ayah\na. 1/6 dengan syarat:\n- Muwarrits meninggalkan keturunan laki-laki.\nb. 1/6 + sisa, dengan syarat:\n- Muwarrits hanya meninggalkan keturunan perempuan, tapi tidak meninggalkan keturunan laki-laki.\nc. Jika muwarrits tidak meninggalkan keturunan, maka ayah mendapatkan sisa harta(‘ashabah)."
+            ]
+        },
+        {
+            "tag": "bagian kakek",
+            "patterns": [
+              "sebutkan syarat syarat yang dapat di terima oleh kakek dan baiannya?",
+              "syarat utama yang berkaitan dengan keberadaan ayah agar kakek berhak menerima warisan?",
+              "siapa saja pihak yang harus tidak ada agar hak waris kakek menjadi tidak terhalang?",
+              "bagaimana pengaruh jenis kelamin keturunan terhadap perubahan jatah warisan kakek?"
+            ],
+            "responses": [
+               "Untuk bagian Kakek\nKakek yang menjadi ahli waris adalah ayahnya ayah dan seterusnya ke atas. Kakek mendapatkan:\na. 1/6 dengan syarat:\n- Muwarrits tidak meninggalkan ayah, atau kakek yang lebih dekat darinya,\n- tapi meninggalkan keturunan\nb. Mendapat sisa (‘ashabah), dengan syarat:\n- Muwarrits tidak meninggalkan ayah dan keturunan\nc. 1/6 + sisa harta, dengan syarat:\n- muwarrits meninggalkan keturunan perempuan, tapi tak meninggalkan keturunan laki-laki.\n- Tidak meninggalkan ayah, atau kakek yang lebih dekat darinya."
+            ]
+        },
+        {
+            "tag": "anak perempuan",
+            "patterns": [
+              "bagaimana perbedaan ketentuan pembagian warisan antara anak perempuan tunggal dengan anak peremuan yang berjumlah lebih dari satu?",
+              "bagaimana skenario pembagian harta bagi anak perempuan berdasarkan jumlah saudarinya?",
+              "berapa porsi warisan yang diterima anak perempuan juka ia sendiri dan berapa jika ia berdua atau lebih?",
+              "bagamana pembagian warisan jika muwariits mininggalkan tiga anak perempuan tanpa anak laki laki"
+            ],
+            "responses": [
+               "Untuk Pemagian Anak perempuan:\na. 1/2 dengan syarat:\n- Hanya seorang diri (tidak punya saudara)\nb. 2/3 dengan syarat:\n- Tidak ada saudara laki-laki\n- Lebih dari seoran\nArtinya, anak perempuan bila dua orang atau lebih mendapatkan 2/3 harta yang mereka bagi rata."
+            ]
+        },
+        {
+            "tag": "pembagian cucu perempuan",
+            "patterns": [
+              "kondisi apa saja yang menyebabkan perubahan hak waris cucu perempuan, mulai dari mendapatkan bagian maksimal hingga tidak mendapatkan apa apa?",
+              "bagaimana pengaruh keberadaan anak kandung mayit terhadap perolehan harta warisan bagi cucu perempuan?",
+              "dalam situasi apa seorang perempuan dinyatakan terhalang total dan kapan ia berstatus sebagai penerima sisa?",
+              "bagaimana pembagian warisan untuk cucu perempuan?"
+            ],
+            "responses": [
+               "Untuk Pembagian warisan Cucu perempuan (anak perempuannya anak laki-laki):\na. 1/2 dengan syarat:\n Hanya seorang diri.\n- Si muwarrits tidak meninggalkan anak laki-laki yang menjadi hajib (penghalang).\n-Tidak ada saudara laki-laki atau cucu laki-laki muwarrits dari anak laki-lakinya (anak paman) dan ini disebut mu’ashshibnya.\n- Tidak ada anak perempuan muwarrits, (bibinya).\nb. 1/6 dengan syarat:\n- Tidak ada saudara laki-laki, dan anak pamannya (mu’ashshib).\n- Si muwarrits tidak meninggalkan anak laki-laki (paman yang menjadi hajib).\n- Adanya anak perempuan si muwarrits (bibinya) yang hanya seorang diri.\nc. 2/3 dengan syarat:\n- Tidak ada saudara laki-laki atau anak paman yang laki-laki (mu’ashshib)\n- Si muwarrits tidak meninggalkan anak laki-laki dan anak perempuan sekaligus.\n- Jumlahnya lebih dari satu orang, baik bersama saudarinya atau anak perempuan dari anak laki-laki lain bagi si muwarrits (putri pamannya) dan ini disebut musyarik.\n=Jika muwarrits meninggalkan anak laki-laki maka anak perempuan dari anak laki-laki terhalang.\n= Jika muwarrits meninggalkan anak laki-laki dari anak laki-laki, maka si anak perempuan dari anak laki-laki mendapat sisa harta bersama si anak laki-laki dari anak laki-laki tadi (‘ashabah bi ghairihi).\n= Jika muwarrits meninggalkan lebih dari satu orang anak perempuan, maka cucu perempuan dari anak laki-laki tidak mendapatkan apa-apa"
+            ]
+        },
+        {
+            "tag": "pembagian warisan suami",
+            "patterns": [
+              "bagaimana pembagian warisan untuk seorang suami?",
+              "bagaimana ketentuan pembagian warisan untuk suami jika dilihat dari keberadaan anak atau cucu muwariits?",
+              "bagaimana pengaruh keturunan terhadap jatah warisan yang di terima seorang suami?",
+              "jika istri meninggal tanpa meninggalkan anak sama sekali berapa bagian pasti yang di terima olah suaminya?"
+            ],
+            "responses": [
+               "Pembagian Warisan Suami:\na. 1/2 dengan syarat: Si muwarrits tidak meninggalkan keturunan seorangpun, baik laki-laki maupun perempuan, baik dari dirinya maupun suami yang lain.\nb. 1/4 dengan syarat: Muwarrits meninggalkan keturunan. "
+            ]
+        },
+        {
+            "tag": "Pembagian Warisan Istri",
+            "patterns": [
+              "bagaimana pembagian warisan untuk seorang istri?",
+              "apa syarat mutlak yang membedakan besaran penerima harta warisan untuk seorang istri?",
+              "bagaimana ketentuan pembagian waris untuk istri berdasarkan status keturunan yang ditinggalkan suaminya?",
+              "berapa porsi harta yang diterima istri jika diketahui suaminya memiliki keturunan?"
+            ],
+            "responses": [
+               "Pembagian warisan Istri:\na. 1/4 dengan syarat: muwarrits tidak meninggalkan keturunan seorangpun, baik lakilaki maupun perempuan, baik dari dirinya maupun istri yang lain.\nb. 1/8 dengan syarat: muwarrits meninggalkan keturunan. "
+            ]
+        },
+        {
+            "tag": "pembagian warisan saudari sekandung",
+            "patterns": [
+              "bagaimana pembagian warisan untuk saudari kandung?",
+              "jelaskan rincian pembagian waris untuk saudari kandung beserta syarat syarat spesifik untuk setiap bagiannya?",
+              "apa saja kondisi yang membedakan hak waris saudai kandung antara mendapat setengah, sua pertiga, menjadi ashabah, atau terhalang sama sekali?",
+              "sebutkan syarat syarat mutlak yang harus dipenuhi agar saudari kandung berhak menerima bagian?"
+            ],
+            "responses": [
+               "pembagian warisan untuk Saudari kandung:\na. 1/2 dengan syarat:\n- Tidak bersama saudara lelaki sekandung (mu’ashshib)\n- Hanya seorang diri (tak ada saudari perempuan sekandung atau musyarik)\n- Tidak ada hajib (penghalang), yaitu keturunan laki-laki, ayah, dan kakek.\n= Bila muwarrits meninggalkan anak laki-laki maka saudari kandung terhalang.\n= Bila muwarrits meninggalkan anak perempuan tanpa anak laki-laki, maka saudari kandung mendapat sisa harta (‘ashabah ma’al ghair)\n=Bila muwarrits meninggalkan ayah, maka para ulama sepakat bahwa semua saudara mahjub (terhalang). Namun bila meninggalkan kakek dan seterusnya keatas, maka para ulama berbeda pendapat dan akan dijelaskan pada babnya nanti insya Allah.\nb. 2/3 dengan syarat: lebih dari satu orang, selanjutnya sama dengan syarat-syarat diatas."
+            ]
+        },
+        {
+            "tag": "pembagian saudari seayah",
+            "patterns": [
+              "bagaimana pembagian warisan untuk saudari seayah?",
+              "apa saja kondisi yang membedakan hak waris saudari seayah antara mendapat setengah, dua pertiga, atau menjadi seperenam??",
+              "apa saja syarat tambahan saudari seayah untuk mendapatkan hak warisnya?",
+              "Bagaimana pengaruh keberadaan saudari kandung terhadap besaran harta yang diterima oleh saudari seayah?"
+            ],
+            "responses": [
+               "pembagian warisan untuk Saudari seayah:\na. 1/2 dengan syarat sama dengan saudari kandung ditambah tidak adanya saudara kandung muwarrits baik pria maupun wanita, serta tidak adanya mu’ashshib bagi saudarai sebapak, yaitu saudara laki-laki muwarrits sebapak juga.\nb. 2/3 dengan syarat sama dengan diatas yaitu kalau ia bersama saudari si muwarrits sebapak, baik yang sekandung dengan dia atau juga sebapak. Ini dalam ilmu fara’idh disebut musyarik.\nc. 1/6 dengan syarat si muwarrits meninggalkan saudari kandung hanya seorang, tanpa saudara laki-laki"
+            ]
+        },
+        {
+            "tag": "pembagian saudara seibu",
+            "patterns": [
+              "bagaimana pembagian warisan untuk saudara seibu?",
+              "bagaimana peredaan besaran warisan yang diterima saudara seibu jika ia hanya seorang diri dibandingkan jika ia berjumlah banyak?",
+              "apa faktor utama yang menyebabkan perubahan jatah saudara seibu?",
+              "apakah perbedaan jenis kelamin mempengaruhi besaran warisan di kalangan saudara seibu?"
+            ],
+            "responses": [
+               "Pembagian Warisan untuk Saudara seibu:\na. 1/6 dengan syarat:\n- Hanya seorang diri (sama saja baik laki-laki maupun perempuan).\n- Tidak ada hajib.\nb. 1/3 dengan syarat:\n- Lebih dari satu orang baik laki-laki maupun perempuan atau campuran\n- Tidak ada hajib."
+            ]
+        },
+        {
+            "tag": "ashabah",
+            "patterns": [
+              "apa definisi dan prinsip kerja pembagian warisan bagi kelompok ashabah?",
+              "kondisi apa saja yang dialami oleh ashabah?",
+              "bagaimana mekanisme prioritas pembagian harta ketika ashabah bertemu dengan ashabul furudh?",
+              "apa yang terjadi pada jatah ashabah jika warisan telah habis dibagikan kepada ashabul furudh?"
+            ],
+            "responses": [
+               "‘ashabah adalah ahli waris yang tidak ditentukan bagiannya secara khusus, tapi justru mendapatkan seluruh harta warisan bila tak ada ahli waris lain bersamanya, atau mendapatkan keseluruhan sisa harta setelah dibagikan kepada ashhab al furudh. Bagian ‘ashabah adalah:\n- Bila muwarrits hanya meninggalkan ‘ashabah, maka ia mendapatkan semua harta.\nContoh: Seseorang mati meninggalkan 10 orang anak laki-laki, maka harta warisannya dibagikan kepada mereka semua dibagi rata.\n- Bila muwarrits meninggalkan Ashhab al furudh dan ‘ashabah, maka warisan dibagikandulu kepada ashhab al furudh, baru kemudian sisanya diberikan semua kepada ‘ashabah.\nContoh: 10 orang anak di atas bersama ibu dan istri muwarrits, maka hartanya dibagikan dulu kepada ibu yang mendapat 1/6 dan istri yang mendapat 1/8, barulah sisanya dibagi kepada mereka.\n- Bila ternyata setelah dibagikan kepada ashhab al furudh warisannya tak meninggalkan sisa, atau malah berkurang dan terjadi ‘aul, maka ‘ashabah tidak mendapatkan apaapa.\nContoh: Seorang meninggalkan seorang saudari kandung, seorang saudari seayah,ibu, dan seorang saudari seibu, serta seorang paman kandung.\n- Bila terdapat lebih dari satu ‘ashabah, maka sisa harta diberikan kepada yang lebih kuat kedudukannya, dan yang lain mahjub (lihat Bab hajb). Misalnya ada ayah dan paman kandung, maka yang menghabiskan seluruh atau sisa harta adalah ayah, dan paman kandung mahjub."
+            ]
+        },
+        {
+            "tag": "jenis jenis ashabah",
+            "patterns": [
+              "sebutkan jenis penggolongan ahliwaris ashabah dalam ilmu waris",
+              "apa saja macam amcam ashabah?",
+              "bagaimana pembagian kategori ashabah berdasarkan penyebab statusnya?",
+              "jelaskan defenisi singkat dan macam macam ashabah?"
+            ],
+            "responses": [
+               "‘Ashabah ada tiga macam:\n1. ‘ashabah bi nafsihi (‘ashabah dengan sendirinya)\n2. ‘ashabah bi ghairihi (‘ashabah lantaran adanya orang lain)\n3. ‘ashabah ma’al ghair (‘ashabah bersama orang lain)\n\n1.’Ashabah bi nafsihi\nDisebut ‘ashabah bi nafsihi karena ia sedari awal ia memang berstatus ‘ashabah dengan syarat-syarat yang sudah ditentukan. Jumlahnya ada 12:\n1. Anak laki-laki\n2. Cucu laki-laki dari anak laki-laki dan seterusnya ke bawah\n3. Ayah\n4. Kakek dari ayah dan seterusnya ke atas\n5. Saudara laki-laki kandung\n6. Saudara seayah\n7. Anak saudara kandung\n8. Anak saudara seayah\n9. Paman kandung\n10. Paman sebapak\n11. Anak paman kandung\n12. Anak paman sebapak\nJika semuanya ada, maka yang berhak mendapatkan warisan hanya anak dan ayah. Yang lainnya mahjub. Tapi yang menjadi ‘ashabah hanya anak, sedangkan ayah menjadi shahib fardh yaitu mendapat 1/6.\n\n2.’Ashabah bi ghairihi ‘ashabah bi ghairihi adalah ahli waris yang tadinya mendapatkan bagian tertentu (ashhab al furudh), tapi berubah menjadi pengambil sisa semua harta karena ada ahli waris lain yang menariknya menjadi ‘ashabah. Ahli waris yang menarik itu disebut mu’ashshib. Dalam hal ini bagian tertentunya tidak berlaku dan ia hanya berbagi dengan mu’asshibnya.\nBerikut ahli waris yang menjadi ‘ashabah bi ghairihi beserta para mu’ashshibnya:\n-⁕ Anak perempuan mu’ashshibnya anak laki-laki (saudara kandungnya).\n⁕ Cucu perempuan mu’ashshibnya:\n• Cucu laki-laki (baik saudaranya maupun sepupunya).\n• Cicit laki-laki dari cucu laki-laki dari anak laki-laki (keponakannya) bila diperlukan.\n⁕ Saudari kandung mu’ashshibnya saudara kandung.\n⁕ Saudari seayah mu’ashshibnya saudara seayah.\n\n3.’Ashabah ma’al ghair\n‘ashabah ma’al ghair adalah saudari sekandung atau sebapak seorang diri atau lebih. Ia mendapatkan sisa harta atau menjadi ‘ashabah dengan syarat:\na. Tidak ada mu’ashshib\nb. Tidak ada hajib\nc. Bersama anak keturunan perempuan muwarrits\n• Jika salah satu dari syarat ini tidak terpenuhi maka, saudari tidak bisa menjadi‘ashabah ma’al ghair.\n Bila ada mu’ashshib, maka ia menjadi ‘ashabah bi ghairihi.\nContoh: Seorang meninggalkan anak perempuan, ibu, istri, saudara dan saudari kandung."
+            ]
+        },
+        {
+            "tag": "mewarisi dari 2 jalur",
+            "patterns": [
+              "bagaimana aturan pembagian warisan bagi seseorang yang memiliki 2 hubungan kerebatan sekaligus dengan muwariits?",
+              "apakah seorang ahli waris diperbolehkan mengambil dua bagian harta jika ia memiliki dua jalur kewarisan yang bereda?",
+              "jelaskan mekanisme akumulasi hak waris agi seseorang yang memegang status ganda?",
+              "bagaimana cara menghitung total bagian untuk ahli waris yang merangkap dua posisi, seperti saudara seibu yang juga berstatus sebagai anak paman"
+            ],
+            "responses": [
+               "Ada kalanya seseorang memiliki dua jalur kewarisan dari orang lain. Misalnya bila seorang gadis menikah dengan anak laki-laki dari saudara laki-laki ayahnya.\nBila ini terjadi, maka statusnya adalah suami sekaligus anak paman. Ia mendapat bagian suami, yaitu 1/2 atau 1/4, serta ia juga menjadi ‘ashabah dan mengambil sisa harta bila tak ada hajibnya.\nContoh: Seorang wanita meninggalkan suami yang sekaligus anak pamannya, anak perempuan.\nBerarti suami mendapat 2 bagian, satu bagian sebagai suami, dan bagian lain sebagai anak paman.\nBila ada hajib, maka ia hanya mendapat bagian sebagai suami dan bagiannya sebagai anak paman gugur.\nSeperti bila ia bersama anak perempuan dan anak saudara laki-laki istrinya. \nContoh lain adalah saudara seibu sekaligus anak paman. Ini terjadi bila seorang wanita menikah dengan seorang pria dan mendapatkan anak, lalu suami pertamanya meninggal dan ia menikah lagi dengan saudara kandung atau sebapak dari suami pertamanya tadi, dan juga dikarunia anak. Anak keduanya ini dari suami kedua adalah saudara seibu, sekaligus sepupu (anak paman) bagi anak pertama. Bila salah satu dari mereka meninggal, maka saudaranya ini mendapat warisan dari dua jalur tersebut. Ia mendapat 1/6 sebagai saudara seibu dan mendapat sisa sebagai anak paman"
+            ]
+        },
+        {
+            "tag": "mengenal hajib dan mahjub",
+            "patterns": [
+              "jelaskan perbedaan ddefenisi dan penyebab hilangnya hak waris dalam kasus hajib dibandingkan dengan kasus mani?",
+              "bagaimana pengaruh keberadaan orang yang mahjub terhadap besaran bagian ahli waris dan lain jika dibandingkan dengan orang yang mahrum?",
+              "siapa yang dianggap tidak ada dan siapa yang di anggap tidak ada sama sekali?",
+              "bagaimana membedakan antara ahli waris yang ada tapi tidak dapat bagian dengan ahli waris yang di anggap tidak pernah ada?"
+            ],
+            "responses": [
+               "Hajb atau penghalang waris di sini berbeda dengan mani’ atau faktor-faktor yang menyebabkan seseorang tidak bisa mendapatkan warisan yang telah dijelaskan sebelumnya.\nPerbedaan itu meliputi:\n• Bila dalam mani’ seseorang memang sedari awal tidak berhak mendapatkan warisan, maka dalam hajb ia sebenarnya berhak, namun kalah prioritas dibanding ahli waris lain, sehingga harta habis dibagikan kepada yang lebih prioritas daripadanya.\n• Mamnu’ atau mahrum (yang terlarang mendapat warisan) tidak berpengaruh pada proses pembagian warisan. Ia dianggap tidak ada, sehingga tak masuk hitungan dalam pembagian pusaka. Sedangkan mahjub masih berpengaruh dalam pembagian warisan, meski ia sendiri tidak mendapat bagian, tapi ia bisa menyebabkan bagian orang lain berkurang.\n\nContohnya, seorang mati meninggalkan ayah, dua orang saudara dan ibu. Maka bagian ibu adalah 1/6, ayah mendapat sisa sedangkan kedua saudaranya mahjub lantaran adanya ayah. Di sini mereka mahjub tapi mempengaruhi bagian ibu, karena ibu mendapatkan 1/6 bila muwarrits meninggalkan keturunan, atau dua orang saudara atau lebih (lihat pasal ashhab al furudh).\nBerbeda halnya bila kedua saudara ini terlarang mendapatkan warisan, karena salah satu sebab diatas, misalnya berbeda agama, maka ibu mendapatkan 1/3, karena saudara-saudara tersebut dianggap tidak ada. Atau salah seorang dari mereka beda agama, maka ibu juga mendapatkan 1/3, karena dalam hal ini berarti muwarrits dianggap hanya meninggalkan seorang saudara, sedangkan yang beda agama tadi tidak masuk hitungan.\n\n- Ahli waris yang terhalangi disebut mahjub. - Ahli waris yang menghalanginya disebut hajib."
+            ]
+        },
+        {
+            "tag": "jenis hajib",
+            "patterns": [
+              "jelaskan dua jenis hajib berdasarkan dampak yang ditimbulkan terhadap penerima harta ahli waris",
+              "seubtkan jenis hajib",
+              "bagaimana cara membedakan mekanisme hajib hirman dengan hajib nuqsahan?",
+              "perbedaan mendasar antara hajib hirman dan hajib nuqshan dalam hukum waris?"
+            ],
+            "responses": [
+               "Ada dua jenis hajb:\n1. Hajb hirman artinya penghalang yang menyebabkan seseorang tidak mendapatkan harta warisan sama sekali\n2. Hajb nuqshan artinya penghalang yang menyebabkan ia mendapatkan pengurangan jumlah bagian lantaran ada ahli waris lain yang juga mendapat bagian.\n\nContoh: seorang saudara kandung mendapatkan sisa harta bila muwarrits tidak meninggalkan keturunan laki-laki atau ayah, tapi bila muwarrits meninggalkan salah satu dari keduanya, atau kedua-duanya, maka saudara kandung tidak mendapatkan apa-apa. Ini disebut hajb hirman.\n Contoh lain: seorang suami akan mendapatkan ¼ bila istrinya tidak meninggalkan keturunan, tapi bila istrinya meninggalkan keturunan (anak atau cucu dan seterusnya kebawah) baik laki-laki maupun perempuan, maka suami hanya mendapatkan 1/8. Bagiannya jadi berkurang, dan ini disebut hajb nuqshan."
+            ]
+        },
+        {
+            "tag": "kaidah penting ilmu fara'idh",
+            "patterns": [
+              "sebutkan dan jealskan tiga kelompok posisi ahli waris utama beserta anggota anggotanya menurut kaidah fara'idh",
+              "siapa saja ahli waris sepesial yang memiliki kekebalan mutlak dalam kondisi apapun?",
+              "bagaimana status ayah, ibu, anak dan pasangan dalam konteks aturan hajib hirman dan hajib nuqshan?",
+              "siapa saja yang termasuk dalam golongan ashal, far, dan hasiyah?"
+            ],
+            "responses": [
+               "Beberapa kaidah penting:\n• Dalam ilmu fara`idh, ada beberapa posisi untuk ahli waris yang tidak sama dan mempengaruhi masalah hajb, yaitu: \n✓ Ashal, yang terdiri dari ayah, kakek, dan setarusnya ke atas, ibu, nenek dan setarusnya ke atas. Mereka disebut asal karena dari merekalah muwarrits berasal.\n✓ Far’ (keturunan), yaitu semua keturunan mayyit baik anak maupun cucu dan seterusnya ke bawah.\n✓ Hasyiyah (orang yang berada di sisi kanan dan kiri), yang terdiri dari saudara (kandung, sebapak dan seibu), anak laki-laki saudara, paman kandung, paman sebapak dan anak-anak laki-laki mereka.\n• Asal hanya bisa dimahjub oleh asal, far’ hanya bisa dimahjub oleh far’, sedangkan hasyiyah bisa dimahjub, baik oleh asal, far’ maupun hasyiyah sendiri.\n• Ahli waris yang tidak bisa mahjub secara keseluruhan (hirman) adalah anak (baik lakilaki maupun perempuan), kedua orang tua, suami dan istri. Selain itu bisa menjadi mahjub bisa pula menjadi hajib. Akan tetapi kedua orang tua dan suami atau istri bisa berkurang bagiannya (mahjub nuqshan). "
+            ]
+        },
+        {
+            "tag": "kakek dan saudara",
+            "patterns": [
+              "apakah keberadaann kakek secara otomatis menghalangi seluruh jenis saudara sebagaimana ayah menghalangi mereka?",
+              "jenis saudara manakah yang di sepakati pasti terhalang oleh kakek, dan jenis saudara mana yang statusnya masih diperdebatkan?",
+              "bagaimana kekuatan hak waris antara saudara seibu dengan saudara kandung ketika berhadapan dengan kakek?",
+              "apa saja poin poin kesepakatan dan poin perbedaan pendapat di kalangan ulama mengenai warisan kakek dan saudara?"
+            ],
+            "responses": [
+               "Jika seseorang mati meninggalkan saudara kandung atau saudara seayah dan seorang kakek, berapakah bagian masing-masing? Apakah kakek memahjub saudara, sehingga seluruh harta jatuh ke tangannya dan saudara-saudara muwarrits tidak mendapatkan apa-apa? Ataukah mereka berbagi rata? Atau ada bagian khusus tergantung kondisi yang berbeda-beda?\n Masalah kakek dan saudara menjadi masalah yang paling rumit dan menjadi perdebatan panjang di kalangan ahli fara`idh sejak masa sahabat.\n Sebelum masuk pada point yang diperdebatkan, kita harus memahami dulu beberapa kesepakatan (ijma’) para ulama dalam masalah ini:\n1. Para ulama sepakat bahwa ayah memahjub saudara, baik kandung, apalagi sebapak dan seibu.\n 2. Mereka juga sepakat bahwa saudara seibu baik laki-laki maupun perempuan mahjub oleh adanya kakek (ayahnya ayah dan seterusnya ke atas).\n3. Yang menjadi perdebatan adalah bila kakek bersama dengan saudara laki-laki atau perempuan atau campuran keduanya, baik kandung maupun sebapak atau kesemuanya ada. Jadi, bila disebutkan saudara dalam pasal ini, maka maksudnya adalah saudara kandung atau saudara seayah, tidak termasuk saudara seibu, karena dia sudah mahjub dengan adanya kakek menurut ijma’. \nSecara garis besar ada dua pendapat dalam masalah ini:\nPendapat pertama: kakek dan seterusnya ke atas memahjub saudara kandung dan sebapak. Ini adalah pendapat Abu Bakar Ash Shiddiq ra, Ibnu Abbas dan Abdullah bin Umar di kalangan sahabat. Pendapat ini didukung oleh Abu Hanifah (imam madzhab Hanafi), satu riwayat dari Ahmad bin Hanbal (imam madzhab Hanbali) Daud Azh Zhahiri, Abu Tsaur, Al Muzanni, dan Ibnu Syuraih. Pendapat ini didukung oleh kalangan peneliti (muhaqqiqin), seperti Ibnu Taimiyah, Ibnu Al Qayyim. Di kalangan ulama modern pendapat ini didukung oleh Dr. Shalih bin Fauzan Al Fauzan, Syekh Muhyiddin Abdul Hamid, Syekh Muhammad bin Shalih Al ‘Utsaimin dan lainl-lain. \n Pendapat kedua: Kakek tidak memahjub saudara. Mereka sama-sama mendapatkan harta warisan, tapi tidak sama antara satu kondisi dengan yang lain. Ini adalah pendapat Ali bin Abi Thalib, Ibnu Mas’ud, Zaid bin Tsabit di kalangan sahabat. Pendapat inilah yang menjadi pegangan tiga madzhab, Maliki, Syafi’i dan Hanbali, juga didukung oleh dua murid Abu Hanifah yakni Abu Yusuf dan Muhammad bin Hasan. Pendapat ini pula yang dipakai di banyak negeri muslim saat ini dalam UU perdata mereka"
+            ]
+        },
+        {
+            "tag": "masalah nenek",
+            "patterns": [
+              "apa perbedaan mendasar antara nenek sahih dan nenek fasid dalam hukum kewarisan islam?",
+              "siapa saja kriteria nenek yang di golongkan sebagai nenek sahih yang berhak mendapatkan warisan",
+              "apakah ibunya dari ayah ibu berhak mendapatkan warisan?",
+              "sebutkan jalur jalurkerabatan ke atas membuat seorang nenek berhak menerima harta peninggalan cucunya?"
+            ],
+            "responses": [
+               "Semua asal perempuan dari pihak ibu dan ayah dalam ilmu waris disebut nenek. Dengan begitu seseorang mempunyai banyak sekali nenek. Dalam ilmu waris ada dua jenis nenek\n1. Nenek sahih (nenek yang menjadi ahli waris)\n2. Nenek fasid (nenek yang bukan ahli waris, tapi termasuk ulul arham).\nDalam pembahasan buku ini nenek yang dimaksud adalah nenek sahih. Siapakah nenek sahih itu? \nPara ulama berbeda pendapat, tapi yang paling kuat adalah bahwa nenek sahih itu sebagai berikut:\n- Ibunya ibu, ibunya lagi seterusnya ke atas dengan jalur ibu semua.\n- Ibunya ayah.\n- Ibunya ibu ayah, ibunya lagi dan seterusnya ke atas dengan jalur ibu semua.\n- Ibu dari ayahnya ayah (ibu kakek), ibunya lagi dan seterusnya ke atas dengan jalur ibu semua.\n- Ibu dari ayahnya ayah ayah, dan seterusnya lewat jalur ayah semua.\nSedangkan nenek fasid adalah semua ibu dari kakek yang tidak mendapat warisan (kakek fasid) \nKakek fasid adalah:\n- Ayahnya ibu dan setarusnya ke atas\n- Ayah dari semua nenek yang disebutkan di atas.\nArtinya, ibu dari kakek semacam ini disebut nenek fasid.\nApakah ibunya ayah dimahjub oleh ayah, dan ibunya kakek dimahjub oleh kakek itu sendiri?\nPendapat pertama: madzhab jumhur ulama adalah nenek yang merupakan ibu dari ayah atau kakek pewaris mahjub oleh adanya ayah atau kakek terrsebut. Misalnya ibunya kakek dimahjub oleh adanya kakek, dan ibunya ayah dimahjub oleh adanya ayah.\nPendapat kedua: Pendapat yang dipakai dalam madzhab Hanbali bahwa mereka tidak memahjub ibu mereka. Dalilnya adalah hadits Ibnu Mas’ud ra yang memperlihatkan seorang wanita yang diberi warisan oleh Rasulullah saw bersama anaknya dan anaknya itu masih hidup.” (Hr. At Turmudzi)\nPendapat kedua inilah yang lebih kuat, karena hadits Ibnu Mas’ud di atas. Selain itu, nenek dianggap perwakilan dari jalur ibu, sehingga tidak berhubungan dengan jalur ayah. Wallahu a’lam."
+            ]
+        },  
+        {
+            "tag": "hajib dan mahjub antar nenek",
+            "patterns": [
+              "apakah nenek yang derajatnya lebih dekat selalu menghalangi nenek yang lebih jauh?",
+              "bagaimana aturan prioritas antara nenek yang dekat dengan nenek yang jauh baik dalam satu jalur maupun beda jalur?",
+              "dalam kondisi apa seorang nenek yang posisinya lebih jauh tetap mendapatkan warisan meskipun ada nenek yang lebih dekat",
+              "apa perbedaan hukum antara nenek dari pihak ibu yang lebih dekat dengan nenek dari pihak ayah yang lebih dekat terhadap nenek lainnya?"
+            ],
+            "responses": [
+               "Para ulama sepakat bahwa bila ada ibu, maka nenek dari pihak manapun mahjub. Kemudian perlu diketahui bahwa nenek itu kemungkinan dari berasal dari dua arah, arah ibu dan arah ayah.\n- Bila berasal dari arah yang sama dan jaraknya dengan muwarrits sama, maka mereka berbagi rata dan tidak ada hajib dan mahjub. Misalnya, ibunya ayah ayah, dan ibunya ibu ayah.\n- Bila berasal dari arah yang berbeda dan jarak yang sama, maka juga berbagi rata dan tak saling memahjub. Misalnya, ibunya ibu dengan ibunya ayah, atau ibunya ibu ibu dengan ibunya ayah ayah.\n- Bila berasal dari arah berbeda dan jarak yang berbeda, dan yang lebih dekat adalah dari arah ibu, maka ia memahjub nenek dari arah ayah, misalnya, ibunyaibu dengan ibunya ayah ayah. Artinya, bagian 1/6 hanya untuk ibunya ibu seorang.\n- Bila berasal dari arah berbeda dan jarak berbeda, tapi yang lebih dekat adalah dari arah ayah, maka mereka saling berbagi dan nenek dari pihak ayah tidak bisa memahjub nenek dari pihak ibu, meski jaraknya lebih dekat kepada muwarrits. Misalnya ibunya ibu ibu dengan ibunya ayah.\n- Bila berasal dari arah yang sama dan jaraknya berbeda, maka yang dekat memahjub yang jauh. Misalnya ibunya ibu dengan ibunya lagi berarti yang dapat warisan adalah ibunya ibu. Atau ibunya ayah dengan ibunya lagi atau dengan ibuayahnya ayah (mertuanya), maka yang dapat warisan adalah ibunya ayah."
+            ]
+        },
+        {
+            "tag": "perhitungan warisan",
+            "patterns": [
+              "bagaimana konsep perhitungan warisan",
+              "bagaimana rumus perhitungan untuk membai warisan",
+              "jelaskan kemungkinan kondisi angka penyebut dan cara menyelesaikan untuk mendapatkan asal masalah yang tepat",
+              "apa yang harus dilakukan jika angka penyebut satu merupakan kelipatan dari penyebut lainnya?"
+            ],
+            "responses": [
+               "Dalam pembagian warisan terutama ashhab al furudh ditemukan beberapa angka pecahan, yaitu, 2/3, 1/3, 1/4, 1/2, 1/6 dan 1/8. Dalam praktek pembagian ada dua kemungkinan:\n- Angka penyebut sama, sehingga asal masalah adalah angka penyebut itu sendiri secara otomatis. Misalnya 2/3 dengan 1/3, maka angka 3 otomatis menjadi patokan pembagian.\n- Angka penyebut berbeda, tapi salah satu angka adalah kelipatan dari yang lain, misalnya 1/4 dengan 1/2. 4 adalah kelipatan dari dua, maka angka 4 yang dijadikan patokan jumlah yang dibagi.\n - Angka penyebut berbeda, dan masing-masing bukan kelipatan dari yang lain, namun mempunyai Kelipatan Persekutuan Terkecil (KPK). Dalam hal ini dicari KPKnya kemudian dijadikan patokan pembagian. Misalnya 1/6 dengan 1/8. 6 dan 8 punya KPK 24, bila ada bagian 1/6 dan 1/8, maka asal masalahnya adalah 24.\n - Angka penyebut berbeda dan untuk mendapatkan KPKnya harus dikalikan antar dua angka tersebut. Misalnya 1/3 dengan 1/4, atau 1/2 dengan 1/3. Maka 3 dan 4 langsung dikalikan dan mendapat 12, juga 2 dan 3 langsung dikalikan hingga mendapat 6. Jadi, kalau ada bagian ahli waris 1/3 dan 1/4 maka, asal masalahnya ditulis 12, dan kalau ada 1/2 dan 1/3, maka asal masalahnya 6. Bila kesemua angka ada misalnya, maka dipilih angka terbesar untuk dijadikan asal masalah. Misalnya ada yang mendapat 1/2, 1/4, 1/3, dan 1/6, berarti asal masalahnya adalah 12. Kalau ada bagian 1/8 di sana dan ada 1/3 atau 1/6, maka asal masalahnya 24. Asal masalah dalam perhitungan warisan adalah angka yang muncul sebagai patokan untuk menghitung bagian masing-masing ahli waris. Asal masalah yang ada dalam perhitungan warisan ashhab al furudh ada 71. yaitu: 2, 3, 4, 6, 8, 12, 24."
+            ]
+        },
+        {
+            "tag": "memperbaiki pecahan",
+            "patterns": [
+              "apa yang di maksud dengan tashhih al-mas'alah dalam konteks perhitungan ilmu waris",
+              "mengapa dalam perhitungan waris sebisa mungkin harus dihindari penggunaan angka pecahan, dan apa istilah untuk proses perbaikannya?",
+              "apa tujuan utama dilakukannya proses tashhih pada angka angka pembagian warisan?",
+              "kapan suatu perhitungan warisan dianggap selesai tanpa perlu melakukan perbaikan angka lagi?"
+            ],
+            "responses": [
+               "Dalam hitungan waris seyogyanya tidak menggunakan pecahan. Kalaupun ada pecahan, maka dicari kelipatannya supaya menjadi bilangan bulat. Kesemua contoh yang disebutkan tidak mengandung pecahan dan bisa diselesaikan dengan mudah tanpa memerlukan perbaikan. Perbaikan semacam ini dalam ilmu waris dinamakan tashhih al mas`alah. Apabila jumlah angka yang menjadi bagian ahli waris sama dengan jumlah kepala atau merupakan hasil kali dan jumlah kepala, maka masalah tersebut sudah selesai dan tak perlu ditashih. Misalnya, seorang meninggalkan ayah, ibu, dan dua orang anak laki-laki. Dalam kasus ini bagian anak laki-laki adalah 4 dan jumlah mereka ada 2, berarti bagiannya mencukupi, yaitu masing-masing mendapat 2. Artinya, masalah tersebut sudah selesai dan tak perlu ditashih.Tashih al mas`alah akan terjadi bila jumlah kepala yang ada tidak bisa dibagi dengan jumlah hasil warisan. Misalnya, seorang mati meninggalkan ayah, ibu, dan 3 orang anak laki-laki, Dalam hal ini anak-anak tersebut mendapat bagian 4 yang merupakan sisa harta setelah dibagi kepada ayah dan ibu. Sedangkan jumlah mereka ada 3, dan 4 tidak bisa dibagi tiga dalam bentuk bilangan bulat satu angka. Maka perlu ditashih dengan mencarikan suatu angka sehingga masing-masing kepala mendapat bagian dalam bilangan bulat minimal, tanpa pecahan atau angka dibelakang koma."
+            ]
+        }
+    ]
+}
